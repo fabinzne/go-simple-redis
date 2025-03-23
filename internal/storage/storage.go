@@ -184,5 +184,7 @@ func (ds *DataStore) LoadFromFile(filename string) error {
 		}
 	}
 
+	fmt.Printf("Loaded data from file\n %v\n", ds.items)
+
 	return nil
 }
